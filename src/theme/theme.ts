@@ -1,23 +1,27 @@
-// theme/theme.ts
-'use client';
-
+// theme.ts
 import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // blue
+      main: '#6A0DAD', // Purple
     },
     secondary: {
-      main: '#f50057', // pink/red
+      main: '#FFD700', // Gold
     },
     background: {
-      default: '#fafafa',
+      default: '#FFFFFF', // White background
+      paper: '#FFFFFF',
+    },
+    text: {
+      primary: '#000000', // Black text
+      secondary: '#555555',
     },
   },
   typography: {
-    fontFamily: 'Inter, Arial, sans-serif',
+    fontFamily: 'Poppins, Roboto, sans-serif',
   },
 });
 
 export default theme;
+

@@ -9,7 +9,7 @@ const Navbar = () => {
     <AppBar position="static" color="primary">
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-          Grace Community Church
+          New Covenant Holliness Church
         </Typography>
 
         <Box>
