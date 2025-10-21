@@ -3,6 +3,7 @@
 
 import { ReactNode } from 'react';
 import { CssBaseline, ThemeProvider, Container } from '@mui/material';
+import "./globals.css";
 import theme from '@/theme/theme';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
